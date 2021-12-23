@@ -1,0 +1,6 @@
+<div id="divOuter">
+	<div id="divInner">
+		<input name="{{ name }}" [(ngModel)]="model" (ngModelChange)="onModelChanged($event)" id="partitioned" type="text" maxlength="4" />
+    </div>
+    <div *ngIf="errorMessage">{{ errorMessage }}</div>
+</div>

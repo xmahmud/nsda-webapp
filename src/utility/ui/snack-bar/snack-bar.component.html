@@ -1,0 +1,10 @@
+<div class="snackbar ">
+  <div class="snackbar-container {{ data?.type }}">    
+    <i [attr.class]="data.data.icon"></i>
+    <span class="snackbar-message">
+      {{ data ? data.data.message : "" }}</span
+    >
+    <span (click)="close()" class="snackbar-close">
+      <i class="fas fa-times"></i></span>
+  </div>
+</div>

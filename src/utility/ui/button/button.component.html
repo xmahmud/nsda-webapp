@@ -1,0 +1,5 @@
+<button type="button" class="{{klass}} button selectable-bg-color"> 
+    <!-- <div *ngIf="!loading">{{label}}</div> -->
+    <app-loader *ngIf="loading"></app-loader>
+    <ng-content *ngIf="!loading"></ng-content>
+</button>

@@ -1,0 +1,14 @@
+<p>register works!</p>
+<app-input [label]="'Name'" [name]="'Name'" [required]="true" [type]="'name'" [(model)]="model.name"
+    ></app-input>
+<app-input [label]="'Email'" [name]="'Email'" [required]="true" [type]="'email'" [(model)]="model.email"
+    ></app-input>
+    <app-input [label]="'Phone'" [name]="'Phone'" [required]="true" [type]="'email'" [(model)]="model.phone"
+    ></app-input>
+
+<app-input [label]="'Password'" [name]="'Password'" [required]="true" [type]="'password'" [(model)]="model.password"
+    ></app-input>
+
+<button (click)="register()" type="button" class="button selectable-bg-color">
+    Login
+</button>

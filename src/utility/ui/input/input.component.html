@@ -1,0 +1,12 @@
+<div class="input">
+  <span *ngIf="label">{{label}} </span>
+  <input
+    (ngModelChange)="onModelChanged($event)"
+    type="{{ type }}"
+    required="{{ required }}"
+    name="{{ name }}"
+    [(ngModel)]="model"
+    placeholder="{{ placeholder }}"
+  />
+  <div *ngIf="errorMessage">{{ errorMessage }}</div>
+</div>

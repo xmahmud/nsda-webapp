@@ -1,0 +1,10 @@
+<div class="input">
+    <span *ngIf="label">{{label}} </span>
+    <input
+      (ngModelChange)="onModelChanged($event)"
+      type="checkbox"
+      required="{{ required }}"
+      name="{{ name }}"
+      [(ngModel)]="model"
+    />
+  </div>

@@ -1,0 +1,11 @@
+<p>login works!</p>
+
+<app-input [label]="'Email'" [name]="'Email'" [required]="true" [type]="'email'" [(model)]="model.email"
+    ></app-input>
+
+<app-input [label]="'Password'" [name]="'Password'" [required]="true" [type]="'password'" [(model)]="model.password"
+    ></app-input>
+
+<button (click)="login()" type="button" class="button selectable-bg-color">
+    Login
+</button>

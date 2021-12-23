@@ -1,0 +1,38 @@
+.snackbar{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    justify-content: center;
+    z-index: 9999;
+    margin: 20px 0px;
+}
+
+.snackbar-icon {
+    margin: 0px 9px 0px 0px;
+}
+
+.snackbar-container{
+    background-color: #131316;
+    border-radius: 40px;
+    min-width: 375px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #393939;
+}
+
+div.success{
+    //background-color: #00c573;
+    color: #00c573;
+}
+
+div.error{
+    //background-color: #f9431a;
+    color: #f9431a;
+}
+
+.snackbar-message{
+    flex-grow: 1;
+}

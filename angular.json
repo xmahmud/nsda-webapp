@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "nsda-proj"
+    }
+  },
+  "defaultProject": "nsda-proj",
+  "cli": {
+    "analytics": "c49e0a82-b40f-47bd-915a-59b315b64925"
+  }
 }

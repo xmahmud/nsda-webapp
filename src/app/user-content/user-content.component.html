@@ -1,0 +1,9 @@
+<div>User information</div>
+
+<div *ngIf="model != null">
+    <div>Name: {{model.name}}</div>
+    <div>Email: {{model.email}}</div>
+    <div>Phone: {{model.phone}}</div>
+    <div>Membership: {{model.membershipId == 0 ? 'Free' : 'Paid'}}</div>
+    <div>Status: {{model.active ? 'Active' : 'Inactive'}}</div>
+</div>
